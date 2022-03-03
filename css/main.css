@@ -50,6 +50,7 @@ body {
   font-family: 'Livvic';
   font-style: normal;
   font-weight: 600;
+  color: rgb(255, 255, 255);
 }
 
 .container {
@@ -126,7 +127,7 @@ body {
 
 .header-link:hover {
   color: #002529;
-  background-color: hsl(0, 0%, 100%);
+  background-color: rgb(255, 255, 255);
 }
 
 .header-link:active {
@@ -166,7 +167,6 @@ body {
   margin: 0;
   font-size: 100px;
   line-height: 100px;
-  color: rgb(255, 255, 255);
 }
 
 .hero-pink {
@@ -182,7 +182,6 @@ body {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  color: rgb(255, 255, 255);
 }
 
 .hero-text::before{
@@ -216,7 +215,6 @@ body {
   margin: 0;
   font-size: 48px;
   line-height: 48px;
-  color: rgb(255, 255, 255);
 }
 
 .build-heading::before {
@@ -289,7 +287,6 @@ body {
   text-align: center;
   font-size: 48px;
   line-height: 48px;
-  color: rgb(255, 255, 255);
 }
 
 .blue {
@@ -302,7 +299,6 @@ body {
   padding: 0;
   display: flex;
   align-items: center;
-  color: rgb(255, 255, 255);
 }
 
 .delivery-item {
@@ -462,4 +458,44 @@ body {
   line-height: 25px;
   text-align: right;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* ABOUT PAGE */
+/* ABOUT HERO SECTION */
+.about-hero-wrapper {
+  background-color: #014E56;
+  background-image: url(../img/about-hero-back.svg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: right -100px bottom 0;
+}
+
+.about-hero-inner {
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-hero-heading {
+  margin: 0;
+  margin-right: 200px;
+  font-size: 64px;
+  line-height: 100px;
+}
+
+.about-inner-text {
+  width: 730px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.about-inner-text::before {
+  width: 50px;
+  height: 4px;
+  margin-bottom: 55px;
+  display: block;
+  background-color: rgb(246, 126, 126);;
+  content: "  ";
 }
