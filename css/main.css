@@ -611,7 +611,7 @@ body {
 
 .directors-item:hover .item-btn {
   color: rgb(1, 47, 52);
-  background-color:  #79C8C7;
+  background-color:  rgb(121, 200, 199);
   transform: rotate(315deg);
 }
 
@@ -646,4 +646,36 @@ body {
 .linkedin-icon {
   width: 20px;
   height: 20px;
+}
+
+/* SOME OF OUR CLIENTS SECTION */
+.clients-wrapper {
+  background-color: rgb(1, 47, 52);
+  background-image: url(../img/client-back-top.svg);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: left top;
+}
+
+.clients-inner {
+  padding-top: 144px;
+  padding-bottom: 140px;
+}
+
+.clients-heading {
+  margin: 0;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.clients-list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
