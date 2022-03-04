@@ -510,6 +510,7 @@ body {
 }
 
 .directors-inner {
+  padding-top: 150px;
   text-align: center;
 }
 
@@ -614,7 +615,7 @@ body {
   transform: rotate(315deg);
 }
 
-.item-text {
+.item-phrase {
   width: 254px;
   margin: 0;
   margin-top: 10px;
