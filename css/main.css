@@ -750,6 +750,10 @@ justify-content: space-between;
   border-bottom: 1px solid rgb(255, 255, 255);
 }
 
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .message {
   padding-bottom: 58px;
 }
