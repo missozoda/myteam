@@ -54,7 +54,7 @@ body {
 }
 
 .container {
-  width: 1150px;
+  max-width: 1150px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -136,6 +136,10 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.25);
 }
 
+.gam-btn {
+  display: none;
+}
+
 /* SITE MAIN */
 /* SITE HERO */
 .hero-wrapper {
@@ -144,7 +148,6 @@ body {
   background-size: 200px 200px;
   background-repeat: no-repeat;
   background-position: -100px 0px;
-  
 }
 
 .hero-inner {
@@ -156,7 +159,6 @@ body {
   background-size: 358px 200px;
   background-repeat: no-repeat;
   background-position: 640px 360px;
-
 }
 
 .hero-left {
@@ -770,3 +772,4 @@ justify-content: space-between;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 24px;
 }
+
