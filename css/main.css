@@ -404,7 +404,12 @@ body {
   padding-bottom: 48px;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+}
+
+.nav-address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo-nav__site-nav {
@@ -415,6 +420,14 @@ body {
 .address {
   margin-left: 130px;
   margin-right: 380px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-text {
+  display: none;
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;

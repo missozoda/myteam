@@ -197,5 +197,67 @@
     margin-top: 64px;
   }
   
+  .delivery-inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .delivery-heading {
+    width: 490px;
+    margin-bottom: 64px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .delivery-list {
+    flex-direction: column;
+  }
+  .delivery-item {
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+  .item-info {
+    width: 573px;
+    margin-bottom: 16px;
+  }
+  .job {
+    margin-bottom: 16px;
+  }
+  
+  .ready-wrapper {
+    background-position: bottom -125px left 0;
+  }
+  .ready-inner {
+    padding-top: 84px;
+    padding-bottom: 84px;
+  }
+  .ready-heading {
+    margin-left: 84px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .ready-link {
+    margin-right: 98px;
+    padding: 10px 32px;
+  }
+
+  .footer-inner {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    flex-direction: column;
+  }
+  .address {
+    margin-left: 340px;
+    margin-right: 0;
+    text-align: right;
+  }
+  .socials {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .socials-text {
+    margin-top: 0;
+    margin-left: 290px;
+  }
 }
 
