@@ -281,7 +281,7 @@ body {
 }
 
 .delivery-heading {
-  width: 932px;
+  width: calc(100% - 40px);
   margin: 0;
   margin-left: auto;
   margin-right: auto;
@@ -309,7 +309,7 @@ body {
 }
 
 .item-info {
-  width: 350px;
+  max-width: calc((100% + 1130px) / 3);
   margin: 0;
   margin-bottom: 24px;
   font-weight: 600;
@@ -418,16 +418,9 @@ body {
 }
 
 .address {
+  max-width: calc((100% - 505px) / 2);
   margin-left: 130px;
-  margin-right: 380px;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 25px;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.address-text {
-  display: none;
+  margin-right: 330px;
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
