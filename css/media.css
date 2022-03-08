@@ -106,6 +106,26 @@
     margin-top: 0;
     margin-left: 290px;
   }
+
+
+
+  .site-forms-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left {
+    margin-bottom: 64px;
+  }
+  .left-heading  {
+    margin-bottom: 24px;
+  }
+  .ask-us {
+    margin-bottom: 24px;
+  }
+  .right {
+    text-align: left;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -251,6 +271,9 @@
     margin-top: 16px;
     margin-left: 0;
   }
+  .input {
+    padding-right: 250px;
+  }
 }
 
 @media only screen and (max-width: 460px) {
@@ -313,6 +336,31 @@
 
   .ready-link {
     margin-right: 0;
+  }
+
+
+  .site-forms-wrapper {
+    background-image: none;
+  }
+  .left-heading {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+  .ask-us {
+    margin-bottom: 16px;
+  }
+  .right {
+    text-align: left;
+  }
+  .input {
+    padding-right: 160px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .input {
+    padding-right: 120px;
   }
 }
 
