@@ -14,10 +14,10 @@
 }
 @media only screen and (max-width: 820px) {
   .hero-wrapper {
-    background-image: none
+    background-image: none, url(../img/hero-back-bottom.svg);
+    background-position: 0 0, bottom -100px center
   }
   .hero-inner {
-    background-position: center bottom -100px;
     flex-direction: column;
     text-align: center;
   }
@@ -238,13 +238,13 @@
     height: 32px;
   }
   .hero-wrapper {
-    background-image: none;
+    background-image: none, url(../img/hero-back-bottom.svg);
+
   }
   .hero-inner {
     padding-bottom: 150px;
     flex-direction: column;
     text-align: center;
-    background-position: center bottom -100px;
   }
 
   .hero-right {

@@ -144,10 +144,10 @@ body {
 /* SITE HERO */
 .hero-wrapper {
   background-color: rgb(1, 78, 86);
-  background-image: url(../img/hero-back-left.svg);
-  background-size: 200px 200px;
+  background-image: url(../img/hero-back-left.svg), url(../img/hero-back-bottom.svg);
+  background-size: 200px 200px, 358px 200px;
   background-repeat: no-repeat;
-  background-position: -100px 0px;
+  background-position: left -100px top, bottom -100px left calc(50% + 320px);
 }
 
 .hero-inner {
@@ -155,10 +155,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url(../img/hero-back-bottom.svg);
+  /* background-image: url(../img/hero-back-bottom.svg);
   background-size: 358px 200px;
   background-repeat: no-repeat;
-  background-position: 640px 360px;
+  background-position: 640px 360px; */
 }
 
 .hero-left {
